@@ -1,13 +1,22 @@
-# Bootstrap
-app/bootstrap*
+# Symfony directories #
+#######################
+vendor/
+composer.lock
 
-# Symfony directories
-vendor/*
-*/logs/*
-*/cache/*
-web/uploads/*
-web/bundles/*
+# Eclipse files #
+#################
+.buildpath
+.project
+.settings
 
-# Configuration files
-app/config/parameters.ini
-app/config/parameters.yml
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+*~
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
