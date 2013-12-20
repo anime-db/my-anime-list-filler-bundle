@@ -1,6 +1,6 @@
 <?php
 
-namespace AnimeDb\Bundle\WorldArtFillerBundle\DependencyInjection;
+namespace AnimeDb\Bundle\MyAnimeListFillerBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;
@@ -18,7 +18,7 @@ class Configuration implements ConfigurationInterface
     public function getConfigTreeBuilder()
     {
         $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('anime_db_world_art_ru');
+        $rootNode = $treeBuilder->root('anime_db_my_anime_list_filler');
 
         // Here you should define the parameters that are allowed to
         // configure your bundle. See the documentation linked above for
