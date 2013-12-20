@@ -1,0 +1,16 @@
+{
+    "name": "anime-db/my-anime-list-filler-bundle",
+    "license": "GPL-3.0",
+    "type": "anime-db-plugin",
+    "description": "Plugin MyAnimeList for the catalog Anime DB",
+    "homepage": "http://github.com/anime-db/my-anime-list-filler-bundle",
+    "version": "0.1.6",
+    "autoload": {
+        "psr-0": { "AnimeDb\\Bundle\\MyAnimeListFillerBundle": "src/" }
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "anime-db/catalog-bundle": "0.3.*"
+    },
+    "minimum-stability": "dev"
+}
